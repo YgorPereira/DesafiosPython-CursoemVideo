@@ -1,0 +1,29 @@
+Se no contexto você necessitar de um verificador de multiplas condições, deve usar o "senão se", que em código é escrito por ELIF.
+
+#IF("Se"): é usado para checar uma codição por exemplo "se o usuário pegou o caminho da direita  imprima 'você foi pela direita'."
+exemplo em código:
+if caminho == "direita":
+	print ("você foi pela direita")
+
+#ELIF("Senão se"): é usado para checar multiplas condições, por exemplo "se o usaurio não pegou o caminho da direita  imprima 'você foi pela esquerda'."
+ATENÇÃO:O ELIF NÃO FUNCIONA SEM A PRESENÇA ANTERIOR DE UM IF!
+exemplo em código:
+if caminho == "direita":
+	print ("você foi pela direita")
+
+elif caminho == "esquerda":
+	print ("você foi pela esquerda")
+
+
+#ELSE("Senão"): é usado para checar se o contexto não está dentro de nenhuma das condições anteriores, por exemplo: "se o usaurio não pegou o caminho da direita e nem 
+o da esquerda imprima 'você seguiu reto'."
+ATENÇÃO: O ELSE NÃO FUNCIONA SEM A PRESENÇA DE UM IF, EM SUA SINTAXE NÃO SE PÕEM UMA CONDIÇÃO ESPECIFICA, POIS ELE CONTRARIA A CONDIÇÃO DADA NO IF OU ELIF!
+exemplo em código:
+if caminho == "direita":
+	print ("você foi pela direita")
+
+elif caminho == "esquerda":
+	print ("você foi pela esquerda")
+
+else:
+	print("você seguiu reto")
