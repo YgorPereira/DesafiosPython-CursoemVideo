@@ -1,0 +1,7 @@
+"for" é usado para criar uma espécie de laço de repetição.
+deve ter um limite para que não seja infinito.
+
+exemplo:
+for variavel in range(1, 10): #estrutura do laço de repetição, onde "in range(1, 10)" é o limite definido
+	comando do for #será executado sempre q o for é executado
+comando fora do for #executado sempre
