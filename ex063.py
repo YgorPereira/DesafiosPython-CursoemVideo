@@ -1,0 +1,9 @@
+count = 0
+a1 = 0
+a2 = a1 + 1
+fibo = int(input('Até qual termo de fibonacci você quer ver?'))
+count = 0 
+while count != fibo: 
+    count += 1
+    a3 = a1 + a2
+    a2 = a3

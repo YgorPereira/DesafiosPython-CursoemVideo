@@ -1,0 +1,34 @@
+while = enquanto
+usado para repetir quando você não souber o limite do range:
+*você não sabe a quantos passos de distancia esta a maçã, quando chegar na maçã pegue-a
+Portugol:
+enquanto não maçã
+    passo
+pega
+
+Python:
+while not maçã:
+    passo
+pega
+
+*no caminho entre você e a maçã existem buracos e você não sabe qual a distancia em passos, quando chegar na maçã pegue-a
+
+Portugol:
+equanto não maça
+    se tiver chão
+        passo
+    se tiver buraco
+        pula
+    se tiver moeda
+        pega
+pega
+
+Python:
+while no maçã:
+    if chão:
+        passo
+    if buraco:
+        pula
+    if moeda:
+        pega
+pega
