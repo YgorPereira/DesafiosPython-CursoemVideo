@@ -1,0 +1,27 @@
+break serve para quebrar uma estrutura de repetição, ou seja, parar: 
+Portugol:
+equanto não maça
+    se tiver chão
+        passo
+    se tiver buraco
+        pula
+    se tiver moeda
+        pega
+    se tiver troféu pula
+    iterrompa
+pega
+
+Python:
+while not maça
+    if chão
+        passo
+    if buraco
+        pula
+    if moeda
+        pega
+    if troféu 
+    pula
+    iterrompa
+pega
+
+
