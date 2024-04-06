@@ -1,7 +1,6 @@
 #Mostrando a tabuda do número solicitado até o usuario digitar um valor negativo
 print('TABUADA')
 print(12 * '-=')
-n = 0 
 while True:
     n = int(input('Quer ver a tabuada de qual valor? [Digite um valor negativo para finalizar]: '))
     if n <= -1:

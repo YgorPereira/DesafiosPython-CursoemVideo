@@ -3,33 +3,27 @@ print(f'''
 {15 * '-'}
 CADASTRAR
 {15 * '-'}''')
-soma_18anos = 0 
-soma_homens = 0 
-sub20_mulheres = 0 
+soma_18anos = 0
+soma_homens = 0
+sub20_mulheres = 0
 cont = 0
 while True:
+    stop = ' '
     idade = int(input('Sua idade: '))
-    if idade <= 0:
-        print('Valor inválido.')
-        idade = int(input('Sua idade: '))
-    sexo = str(input('Seu sexo [H/F]: ')).strip().upper()
-    if sexo not in 'HF':
-        print('Valor inválido.')
-        sexo = str(input('Seu sexo [H/F]: ')).strip().upper()
+    sexo = ' '
+    while sexo not in 'MF':
+        sexo = str(input('Seu sexo [M/F]: ')).strip().upper()[0]
     print('Cadastro realizado com sucesso!')
     cont += 1
     if idade >= 18:
         soma_18anos = soma_18anos + 1
-    if sexo in 'Hh':
+    if sexo == 'M':
         soma_homens += 1
     if sexo == "F" and idade < 20:
         sub20_mulheres += 1
-    stop = str(input('Você que continuar? [S/N]: ')).strip().upper()
-    print(15* '-=')
-    if stop not in 'SN' or stop == '':
-        print('Valor inválido.')
-        stop = str(input('Você quer continuar? [S/N]: ')).strip().upper()
-        print(15* '-=')
+    while stop not in 'SN:':
+        stop = str(input('Você que continuar? [S/N]: ')).strip().upper()[0]
+    print(15 * '-=')
     if stop == 'N':
         break
 

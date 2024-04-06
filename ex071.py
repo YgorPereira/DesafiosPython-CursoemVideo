@@ -5,8 +5,7 @@ SIMULADOR DE CAIXA ELETRÔNICO
 valor = int(input('Qual o valor a ser sacado: R$'))
 notas_50 = notas_20 = notas_10 = notas_1 = 0
 while True:
-    if valor <= 0:
-        print('Digite um valor maior que zero')
+    while valor <= 0:
         valor = int(input('Qual o valor a ser sacado: R$'))
     notas_50 = int(valor / 50)
     resto = valor % 50
