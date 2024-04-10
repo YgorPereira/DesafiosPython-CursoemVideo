@@ -1,0 +1,13 @@
+Uma tupla é um tipo de variável composta que pode guardar mais de um dado
+exemplo:
+Lanche = (hamburguer, coca, batata)
+
+Atenção! Tuplas são imútaveis
+
+para fatia-las, o método é como fatiar strings, basta colocar o nome da variável e na frente [] com o número do elemento que você quer ver.
+exemplo:
+print(Lanche[0]) = "hamburguer"
+print(Lanche[1]) = "coca"
+print(Lanche[2]) ou print(Lanche[-1]) = "batata"
+
+Atenção! O primeiro elemento sempre será 0 e o último sempe -1
