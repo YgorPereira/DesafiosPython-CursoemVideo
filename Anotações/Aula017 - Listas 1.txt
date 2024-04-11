@@ -1,0 +1,47 @@
+inves de usarmso "()" para defini-las, como nas tuplas, usamos "[]"
+lista = [1, 2 , 3, 4]
+Elas são mutáveis.
+Por exemplo, para adicionar um item a lista usamos o append:
+lista.append('5')
+->lista = [1, 2 , 3, 4, 5 ]
+
+para adicionar um item numa posição específica, basta usar o insert, e adicionar a posição antes do item a ser adicionado dentro do parenteses:
+lista.insert(0, '0')
+->lista = [0, 1, 2 , 3, 4, 5]
+
+para apagar elemento podemos usar alguns metódos, sãos eles del e pop para eliminar o elemento por posição, e o remove para eliminar o item citado entre paranteses:
+
+#usando o del
+del lista[3]
+->lista = [0, 1, 2, 4, 5]
+
+#usando o pop 
+lista.pop(4)
+->lista = [0, 1, 2, 5]
+!ATENÇÃO! para eliminar o último elemento basta usar o pop com o parenteses vazio:
+lista.pop()
+->lista = [0, 1, 2, 4]
+
+#usando o remove
+lista.remove('1')
+->lista = [0, 2, 4, 5]
+
+Também é possível criar uma lista a partir de um range com o método list:
+lista = list(range(4,11))
+->lista = [4, 5, 6, 7, 8,9, 10]
+
+caso você queira botar a lista em ordem basta usar método sort:
+
+lista = [1, 4, 5, 2, 3, 6, 9, 7, 8]
+lista = lista.sort()
+->lista [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+se você quiser na ordem decrescente basta usar o sort com o parametro reverse = True:
+
+lista = lista.sort(reverse = True)
+->lista = [9, 8, 7, 6, 5, 4, 3, 2, 1]
+
+para saber o tamanho de uma lista basta usar o len(lista):
+
+lista = [1, 4, 5, 2, 3, 6, 9, 7, 8]
+-> len(lista) = 9
