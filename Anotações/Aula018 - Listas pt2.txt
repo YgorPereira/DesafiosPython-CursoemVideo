@@ -1,0 +1,17 @@
+É possível fazer cópia de uma lista para uma outra através do appende da seguinte forma:
+dados = ["Pedro", 25]
+pessoas.append(dados[:])
+->pessoas = ["Pedro", 25] 
+No caso o elemento na posição 0 será todos os elementos da lista adicionada
+
+outra maneira de definir uma lista com outras listas dentro é usando o próprio colchete:
+pessoas = [["Pedro", 25], ["Maria", 20], ["Leo", 23]]
+
+para manipular um dado específico dentro de uma lista que está dentro de outra, basta botar a posição da lista e depois a posição do dado:
+pessoas = [["Pedro", 25], ["Maria", 20], ["Leo", 23]]
+print(pessoas[0][1])
+->25
+
+para fazer uma cópia da lista basta acresentar ':' entre os colchetes:
+pessoas.append(dados[:])
+!ATENÇÃO! Sempre usar cópia para não criar ligação entre os dois items em questão
