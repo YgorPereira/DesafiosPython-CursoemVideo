@@ -1,0 +1,20 @@
+Dicionários tem a função de definir elementos literais.
+Para definilos basta utilizar dict() ou {}:
+dicionario = dict ()
+dicionario = {}
+
+podemos definir o que cada dicionario sugere da seguinte forma:
+dicionario = {'nome':'ygor'}
+nome seria o indice do elemento "ygor"
+
+para printar 'nome' basta inserir 'nome' dentro dos colchetes:
+print(dicionario['nome'])
+-> ygor
+
+key = nome
+valor = ygor
+item = tudo
+
+for k, v in dicionario.items():
+    print(f'{k}:{v}')
+    -> nome: ygor
