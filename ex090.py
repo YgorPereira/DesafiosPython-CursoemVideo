@@ -1,3 +1,4 @@
+# lendo dados de um aluno, guardando num dicionário e exibindo para o usúario.
 alunos = {}
 alunos['nome'] = str(input('Nome do aluno: '))
 alunos['media'] = float(input('Média do aluno: '))

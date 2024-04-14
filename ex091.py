@@ -1,3 +1,5 @@
+# jogo de dados utilizando dicionário e lista.
+
 from time import sleep
 from random import randint
 from operator import itemgetter

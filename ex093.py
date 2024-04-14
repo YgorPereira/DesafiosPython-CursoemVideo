@@ -1,3 +1,5 @@
+# lendo o desempenho de um jogador e exibindo ao usuário utilizando dicionário.
+
 jogador = dict()
 gols = list()
 total_gols = 0

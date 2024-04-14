@@ -1,3 +1,5 @@
+# analisando dados de um trabalhador e calculando sua aposentadoria utilizando dicionários.
+
 from datetime import datetime
 trabalhador = dict()
 trabalhador['Nome'] = str(input('Nome: ')).strip()
