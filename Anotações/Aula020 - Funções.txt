@@ -1,0 +1,28 @@
+ No python já existem funções pré definidas, são elas as que nós usamos sem precisar defini-las, como o "print", "len()", "input", entre outras.
+ Para sequencias de comandos que usamos com frequencias, podemos criar uma função para otimizar do código, deixando menos repetitivo e trabalhoso. Para criar essa função basta usa o comando def + o nome que quer dar a função(): instruções da função.
+ EXEMPLO: 
+ def mostraLinha():
+ print(30 * '-')
+
+e para chamalo basta digitar o nome da função:
+mostraLinha()
+-> --------------------------------------
+
+Também é possível definir funções usando parametros, da seguinte forma:
+def mensagem(msg):
+print(30 * '-')
+print(msg)
+print(30 * '-')
+
+mensagem('Hello World!')
+-> --------------------------------------
+    Hello World!
+    --------------------------------------
+
+ATENÇÃO! É PRECISO PULAR 2 LINHAS APÓS DEFINIR UMA FUNÇÃO
+
+Com as funções também podemos empacotar parametros usando o * + nome do parametro. Isso é usados quando não sabemos o número de valores que serão adicionados nesse parâmetro:
+def contador (*num):
+    print(num)
+contador(1, 2, 3, 4, 5)
+->(1, 2, 3, 4, 5) 
