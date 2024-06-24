@@ -3,15 +3,15 @@
 
 ## Índice / Table of Contents
 
-1. [Descrição / Description](#descrição)
-2. [Objetivos / Objectives](#objetivos)
-3. [Aprendizado / Learning](#aprendizado)
-4. [Instalação / Installation](#instalação)
-5. [Tecnologias utilizadas / Technologies Used](#tecnologias-utilizadas)
+1. [Descrição / Description](Descrição-/-Description)
+2. [Objetivos / Objectives](#Objetivos-/-Objectives)
+3. [Aprendizado / Learning](#Aprendizado-/-Learning)
+4. [Instalação / Install](#Intalação-/-Installation)
+5. [Tecnologias utilizadas / Technologies Used](#Tecnologias-utilizadas-/-Technologies-Used)
 6. [Links](#links)
-7. [Agradecimentos / Acknowledgments](#agradecimentos)
-8. [Autor / Author](#autor)
-9. [Contato / Contact](#contato)
+7. [Agradecimentos / Acknowledgments](#Agradecimentos-/-Acknowledgments)
+8. [Autor / Author](#Autor-/-Author)
+9. [Contato / Contact](#Contato-/-Contact)
 
 ---
 
