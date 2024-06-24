@@ -1,19 +1,5 @@
 
-# Meu Primeiro Site em HTML e CSS / My first website using HTML and CSS
-
-## Índice / Table of Contents
-
-1. [Descrição | Description](Descrição-|-Description)
-2. [Objetivos / Objectives](#Objetivos-/-Objectives)
-3. [Aprendizado / Learning](#Aprendizado-/-Learning)
-4. [Instalação / Install](#Intalação-/-Installation)
-5. [Tecnologias utilizadas / Technologies Used](#Tecnologias-utilizadas-/-Technologies-Used)
-6. [Links](#links)
-7. [Agradecimentos / Acknowledgments](#Agradecimentos-/-Acknowledgments)
-8. [Autor / Author](#Autor-/-Author)
-9. [Contato / Contact](#Contato-/-Contact)
-
----
+# Desafios de Python do Curso em Video / Python Challenges from Curso em Video
 
 ## Descrição / Description
   Este repositório contém os desafios propostos pelo professor Gustavo Guanabara ao longo do seu curso de Python 3, disponível gratuitamente no YouTube. Os desafios foram projetados para complementar o aprendizado do curso, oferecendo aos alunos a oportunidade de aplicar os conceitos aprendidos em problemas práticos e desafiadores.
@@ -72,6 +58,7 @@ python --version
 ``` 
 git clone https://github.com/YgorPereira/DesafiosPython-CursoemVideo.git
 ```
+
 ### 5 - Execute um desafio / Run a challenge:
 Abra o repositório em uma IDE de sua preferência, selecione um arquivo e execute-o
 
@@ -93,10 +80,6 @@ Open the repository in an IDE of your choice, select a file, and run it
 
 ## Agradecimentos / Acknowledgments
 Agradecemos ao professor Gustavo Guanabara por disponibilizar seu curso gratuitamente e por inspirar a comunidade de programação Python.
-
----
-
-We thank Professor Gustavo Guanabara for making his course freely available and for inspiring the programming community.
 
 ## Autor / Author
 - [@YgorPereira](https://github.com/YgorPereira)
