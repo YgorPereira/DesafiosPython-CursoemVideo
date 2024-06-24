@@ -3,7 +3,7 @@
 
 ## Índice / Table of Contents
 
-1. [Descrição / Description](Descrição-/-Description)
+1. [Descrição | Description](Descrição-|-Description)
 2. [Objetivos / Objectives](#Objetivos-/-Objectives)
 3. [Aprendizado / Learning](#Aprendizado-/-Learning)
 4. [Instalação / Install](#Intalação-/-Installation)
